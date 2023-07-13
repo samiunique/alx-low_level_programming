@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o me.out me.c && ./a.out
+gcc -o a.out a.c && ./a.out
