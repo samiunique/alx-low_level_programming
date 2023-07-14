@@ -18,15 +18,16 @@
 int main(void)
 {
         int n;
+	int num = n % 10;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         /* your code goes there */
-        if (n % 10 > 5)
+        if (num > 5)
         {
                 printf("the last digit of %d is %d and is grater than 5\n", n);
         }
-        else if (n % 10 == 0)
+        else if (num == 0)
         {
                 printf("the last digit of %d is %d and 0\n", n);
         }
