@@ -1,4 +1,3 @@
-root@84e18a8211e3:~/alx-low_level_programming/0x01-variables_if_else_while# cat 3-print_alphabets.c 
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
