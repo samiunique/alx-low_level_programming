@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 /**
  * main - Entry point of the program
@@ -17,7 +18,9 @@ int main(void)
 	printf("Size of long: %zu byte(s)\n", sizeof(long));
 	printf("Size of long long: %zu byte(s)\n", sizeof(long long));
 	printf("Size of pointer: %zu byte(s)\n", sizeof(void *));
+	printf("Size of int32_t: %zu byte(s)\n", sizeof(int32_t));
+	printf("Size of int64_t: %zu byte(s)\n", sizeof(int64_t));
 
-	return (0);
+	return 0;
 }
 
