@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o quote a.c && ./quote
+gcc -o quote 101-quote.c

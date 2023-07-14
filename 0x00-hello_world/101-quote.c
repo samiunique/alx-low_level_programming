@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-        write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19");
-        write"\n");
-        return (1);
+	const char *message = and that piece of art is useful" - Dora Korpar, 2015-10-19\n";
+	write(1, message, strlen(message));
+	return (0);
 }
