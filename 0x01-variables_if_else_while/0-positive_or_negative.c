@@ -5,6 +5,7 @@
 /* more headers goes there */
 /* add random no to variable n */
 /* betty style doc for function main goes there */
+/* read random no from variable n ade identify if is negative posetive or zero */
 int main(void)
 {
 	int n;
