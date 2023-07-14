@@ -6,6 +6,15 @@
 /* add random no to variable n */
 /* betty style doc for function main goes there */
 /* main -read random no from variable n ade identify if is */
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function prints the string
+ * "Programming is like building a multilingual puzzle"
+ * enclosed in double quotation marks.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
