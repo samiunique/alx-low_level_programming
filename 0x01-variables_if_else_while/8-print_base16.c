@@ -1,3 +1,4 @@
+root@84e18a8211e3:~/alx-low_level_programming/0x01-variables_if_else_while# cat 3-print_alphabets.c 
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -13,18 +14,18 @@
  */
 int main(void)
 {
-	char ch;
+        char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		putchar(ch);
-	}
+        for (ch = '0'; ch <= '9'; ch++)
+        {
+                putchar(ch);
+        }
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	{
-		putchar(ch);
-	}
-	putchar('\n');
+        for (ch = 'a'; ch <= 'f'; ch++)
+        {
+                putchar(ch);
+        }
+        putchar('\n');
 
-	return (0);
+        return (0);
 }
