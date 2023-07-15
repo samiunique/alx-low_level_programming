@@ -22,7 +22,7 @@ int main(void)
 			{
 				printf("%d%d%d", i, j, k);
 
-				if (!(i == 9 && j == 6 && k == 6))
+				if (!(i == 5 && j == 9 && k == 9))
 				{
 					printf(", ");
 				}
