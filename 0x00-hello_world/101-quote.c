@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Entry point of the program
  *
@@ -8,9 +9,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	const char *message = and that piece of art is useful" - Dora Korpar, 2015-10-19\n";
-	write(1, message, strlen(message));
-	return (0);
+#include <stdio.h>
+
+int main(void) {
+    const char* a = "and that piece of art is useful - Dora Korpar, 2015-10-19";
+    int i = 0;
+
+    while (a[i] != '\0') {
+        putchar(a[i]);
+        i++;
+    }
+
+    putchar('\n');
+    return 0;
 }
