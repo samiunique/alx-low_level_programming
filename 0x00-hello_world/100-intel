@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE -o sami.s
+gcc -S -masm=intel sami.c -o sami.s
