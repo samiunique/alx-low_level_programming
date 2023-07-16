@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point of the program
  *
@@ -9,19 +10,17 @@
  *
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
-
 int main(void)
 {
-	const char* a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int i = 0;
+    const char* a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+    int i = 0;
 
-	while (a[i] != '\0')
-{
+    while (a[i] != '\0')
+    {
         putchar(a[i]);
-	i++;
-}
+        i++;
+    }
 
-	putchar('\n');
-	return (1);
+    putchar('\n');
+    return (1);
 }
