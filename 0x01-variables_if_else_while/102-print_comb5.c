@@ -12,20 +12,15 @@
  */
 int main(void)
 {
-	int i, j, k;
+	int i, j;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 1; j <= 3; j++)
+		for (j = 1; j <= 6; j++)
 		{
-			for (k = 2; k <= 3; k++)
-			{
-				printf("%d%d%d", i, j, k);
-
-				if (!(i == 8 && j == 9 && k == 9))
+			if (!(i == 9 && j == 6))
 				{
 					printf(", ");
-				}
 			}
 		}
 	}
