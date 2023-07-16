@@ -12,36 +12,29 @@
  */
 int main(void)
 {
-	int i, j, k;
-	int count = 0;
+    int i, j, k;
+    int count = 0;
 
-	for (i = 0; i <= 7; i++)
-	{
-		for (j = 1; j <= 8; j++)
-		{
-			for (k = 2; k <= 4; k++)
-			{
-				printf("%d%d%d", i, j, k);
+    for (i = 0; i <= 7; i++)
+    {
+        for (j = i + 1; j <= 8; j++)
+        {
+            for (k = j + 1; k <= 9; k++)
+            {
+                printf("%d%d%d", i, j, k);
 
-				if (!(i == 7 && j == 8 && k == 9))
-				{
-					printf(", ");
-					count += 4;
-				}
-				else
-				{
-					count += 3;
-				}
+                if (count < 598)
+                {
+                    printf(", ");
+                    count += 4;
+                }
+                else
+                {
+                    count += 3;
+                }
+            }
+        }
+    }
 
-				if (count >= 599)
-					break;
-			}
-			if (count >= 599)
-				break;
-		}
-		if (count >= 599)
-			break;
-	}
-
-	return 0;
+    return 0;
 }
