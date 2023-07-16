@@ -16,13 +16,13 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		for (j = 1; j <= 4; j++)
+		for (j = 1; j <= 8; j++)
 		{
 			for (k = 2; k <= 3; k++)
 			{
 				printf("%d%d%d", i, j, k);
 
-				if (!(i == 8 && j == 9 && k == 9))
+				if (!(i == 7 && j == 8 && k == 9))
 				{
 					printf(", ");
 				}
