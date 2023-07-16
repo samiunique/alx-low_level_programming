@@ -26,11 +26,11 @@ int main(void)
 				if (!(i == 7 && j == 8 && k == 9))
 				{
 					printf(", ");
-					count += 4; // Increase the count by 4 for the digits and comma
+					count += 4;
 				}
 				else
 				{
-					count += 3; // Increase the count by 3 for the final number
+					count += 3;
 				}
 
 				if (count >= 599)
