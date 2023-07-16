@@ -25,7 +25,7 @@ int main(void)
 
                 if (count < 598)
                 {
-                    printf(", ");
+                    printf("\n ");
                     count += 4;
                 }
                 else
