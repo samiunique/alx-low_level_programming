@@ -10,10 +10,13 @@
  *
  * Return: Always 0 (Success)
  */
+#include <stdio.h>
+
 int main(void)
 {
     int i, j, k;
     int count = 0;
+    int totalNumbers = 0;
 
     for (i = 0; i <= 7; i++)
     {
@@ -22,10 +25,11 @@ int main(void)
             for (k = j + 1; k <= 9; k++)
             {
                 printf("%d%d%d", i, j, k);
+                totalNumbers++;
 
-                if (count < 598)
+                if (totalNumbers < 599)
                 {
-                    printf("\n ");
+                    printf(", ");
                     count += 4;
                 }
                 else
@@ -35,6 +39,8 @@ int main(void)
             }
         }
     }
+
+    printf("\n");
 
     return 0;
 }
