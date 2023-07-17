@@ -20,6 +20,8 @@ int main(void)
 		{
 			if (!(i == 9 && j == 6))
 				{
+				
+					printf("i j k ");
 					printf(", ");
 			}
 		}
