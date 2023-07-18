@@ -4,10 +4,11 @@
  * main - Entry point of the program
  *
  * Description: This function generates alpabets in lower case
- *              last digit of the number.
+ *              sequencialy 
  *
  * Return: Always 0 (Success)
  */
+/* Function implementation */
 void print_alphabet(void)
 	/* Function implementation */
 {
