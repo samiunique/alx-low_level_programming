@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point of the program
@@ -13,7 +14,7 @@
 int main(void)
 {
 	char *a = "_putchar";
-	int i = 1;
+	int i = 0;
 
 	while (a[i] != '\0')
 	{
