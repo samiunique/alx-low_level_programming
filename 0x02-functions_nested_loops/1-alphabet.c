@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - function to print alphabet
- * 
+ *
  * Description: This function generates alpabets in lower case
  *
  * Return: void
