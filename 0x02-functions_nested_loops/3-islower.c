@@ -3,7 +3,7 @@
 /**
  * _islower - check for lower case
  *
- * c: This function generates alphabets in lowercase
+ * @c: int argument
  *
  * Return: 0
  */
