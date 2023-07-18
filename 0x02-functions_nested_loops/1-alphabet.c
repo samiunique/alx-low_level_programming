@@ -4,7 +4,7 @@
  * main - Entry point of the program
  *
  * Description: This function generates alpabets in lower case
- *              sequencialy 
+ * sequencialy.
  *
  * Return: Always 0 (Success)
  */
