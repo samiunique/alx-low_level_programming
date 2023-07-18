@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This function generates a random number and determines the
+ * Description: This function generates alpabets in lower case
  *              last digit of the number.
  *
  * Return: Always 0 (Success)
