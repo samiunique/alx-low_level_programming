@@ -6,7 +6,7 @@
  * Description: This function generates alpabets in lower case
  * sequencialy.
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
 /* Function implementation */
 void print_alphabet(void)
