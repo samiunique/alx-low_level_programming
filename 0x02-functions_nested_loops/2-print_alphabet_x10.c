@@ -2,24 +2,22 @@
 #include "main.h"
 
 /**
- * print_alphabet - function to print alphabet 10x
+ * print_alphabet_x10 - function to print alphabet 10x
  *
- * Description: This function generates alpabets in lower case
+ * Description: This function generates alphabets in lowercase
  *
  * Return: void
  */
 void print_alphabet_x10(void)
-        /* Function implementation */
 {
-        char ch, i;
-	for (i = 0; i <= 9; i++)
-	{
+    char ch, i;
 
-        	for (ch = 'a'; ch <= 'z'; ch++)
-        	{	
-                	_putchar(ch);
-        	}
-
-        	_putchar('\n');
-	}
+    for (i = 0; i <= 9; i++)
+    {
+        for (ch = 'a'; ch <= 'z'; ch++)
+        {
+            _putchar(ch);
+        }
+        _putchar('\n');
+    }
 }
