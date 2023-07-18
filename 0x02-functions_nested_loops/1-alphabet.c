@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * prit alphabet 
  *
  * Description: This function generates alpabets in lower case
  * sequencialy.
