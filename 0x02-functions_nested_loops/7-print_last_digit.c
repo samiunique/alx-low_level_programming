@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * print_last_digit
+ * print_last_digit - print last gigits of numbers
  *
  * @num: int argument
  *
@@ -10,5 +10,6 @@
  */
 int print_last_digit(int num)
 {
-        return (num % 10);
+	num = num % 10;
+        return ((num < 0 ) ? -num : num);
 }
