@@ -2,13 +2,13 @@
 #include <ctype.h>
 
 /**
- * _isalpha - check for alpbets in any case
- *
- * @c: int argument
+ * _abs - check for absolute value
+ * 
+ * @no: int argument
  *
  * Return: 0
  */
 int _abs(int no)
 {
-        return (no < 0 ? -no : no);
+	return (no < 0 ? -no : no);
 }
