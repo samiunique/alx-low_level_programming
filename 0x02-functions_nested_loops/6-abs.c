@@ -3,7 +3,7 @@
 
 /**
  * _abs - check for absolute value
- * 
+ *
  * @no: int argument
  *
  * Return: 0
