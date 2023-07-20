@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - used to multiply intigers  
+ * mul - used to multiply integers
  *
  * @a: int argument
  * @b: int argument
@@ -10,9 +10,9 @@
  */
 int mul(int a, int b)
 {
-	int x;
+    int x;
 
-	x = a * b;
+    x = a * b;
 
-	return (x);
+    return (x);
 }
