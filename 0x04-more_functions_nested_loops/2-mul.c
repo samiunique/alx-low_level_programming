@@ -3,8 +3,8 @@
 /**
  * mul - used to multiply integers
  *
- * @a: int argument
- * @b: int argument
+ * @a: first input
+ * @b: second input
  *
  * Return: multiple of a and b
  */
