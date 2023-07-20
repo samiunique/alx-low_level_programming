@@ -3,7 +3,8 @@
 /**
  * mul - used to multiply intigers  
  *
- * @a , b: int argument
+ * @a: int argument
+ * @b: int argument
  *
  * Return: x
  */
