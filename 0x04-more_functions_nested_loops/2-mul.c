@@ -6,7 +6,7 @@
  * @a: int argument
  * @b: int argument
  *
- * Return: mul sum of a and b
+ * Return: multiple of a and b
  */
 int mul(int a, int b)
 {
