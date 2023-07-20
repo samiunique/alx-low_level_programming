@@ -11,16 +11,16 @@
 void print_most_numbers(void)
         /* Function implementation */
 {
-        char ch;
+        int ch;
 
-        for (ch = '0'; ch <= '9'; ch++)
+        for (ch = 0; ch <= 9; ch++)
         {
-		if (ch != "2" && ch != "4")
+		if (ch != 2 && ch != 4)
 		{
-                	putchar(ch);
+               		_putchar(ch);
         	}
 	}
 
-        putchar('\n');
+        _putchar('\n');
 
 }
