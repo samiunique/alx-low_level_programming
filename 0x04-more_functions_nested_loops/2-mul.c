@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
- * _islower - check for lower case
+ * mul - used to multiply intigers  
  *
- * @c: int argument
+ * @a , b: int argument
  *
- * Return: 0
+ * Return: x
  */
 int mul(int a, int b)
 {
 	int x;
-	x = (a*b);
+
+	x = a * b;
+
+	return (x);
 }
