@@ -1,33 +1,28 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
- * more_numbers - function to print numbers
+ * more_numbers - print 0 - 14 ten times and you
+ *		can only use _putchar three times
  *
- * Description: This function generates numbers from 0 to 9
- *
- * Return: void
- */
+ * Return: Always 0 (Success)
+*/
+
 void more_numbers(void)
 {
-    char ch = '0';
+	int num, row, count;
 
-    while (ch <= '9')
-    {
-        putchar(ch);
-        ch++;
-    }
-
-    putchar('\n');
-}
-
-int main()
-{
-    int i;
-    
-    for (i = 0; i < 10; i++)
-    {
-        print_numbers();
-    }
-
-    return 0;
+	for (row = 1; row <= 10; ++row)
+	{
+		for (count = 0; count <= 14; ++count)
+		{
+			num = count;
+			if (count > 9)
+			{
+				_putchar(1 + 48);
+				num = count % 10;
+			}
+			_putchar(num + 48);
+		}
+		_putchar('\n');
+	}
 }
