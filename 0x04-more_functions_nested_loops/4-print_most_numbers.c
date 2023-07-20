@@ -6,7 +6,7 @@
  *
  * Description: This function generates numbers
  *
- * Return: void
+ * Return: Always 0 (Success)
  */
 void print_most_numbers(void)
 {
