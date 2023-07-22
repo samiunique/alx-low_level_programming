@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-    int i;
+int i;
 
-    i = 98 % 2;
+i = 98 % 2;
 
-    positive_or_negative(i);
+positive_or_negative(i);
     /*positive_or_negative(0);
     positive_or_negative(-1);
     */
-    return (0);
+return (0);
 }
