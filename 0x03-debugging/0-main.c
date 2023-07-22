@@ -3,7 +3,7 @@
 /**
  * main - check the code.
  *
- * @i: int argument
+ * @i: int argument.
  * Return: Always 0.
  */
 int main(void)
