@@ -16,14 +16,14 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 1; j <= 6; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (!(i == 9 && j == 6))
-				{
+			/*if (!(i == 9 && j == 6))
+				{*/
 				
-					printf("i j k ");
-					printf(", ");
-			}
+					printf("%d%d%d, "; i, j, k);
+					/*printf(", ");*/
+			/*}*/
 		}
 	}
 
