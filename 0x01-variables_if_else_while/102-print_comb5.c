@@ -13,10 +13,11 @@
 int main(void)
 {
 	int i, j;
+    j = 0;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (j = 0; j <= 9;)
 		{
 			/*if (!(i == 9 && j == 6))
 				{*/
