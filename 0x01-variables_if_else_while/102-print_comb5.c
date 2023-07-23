@@ -21,7 +21,7 @@ int main(void)
 			/*if (!(i == 9 && j == 6))
 				{*/
 				
-					printf("%d%d%d, ", i, j, k);
+					printf("%d%d%d, ", i, j);
 					/*printf(", ");*/
 			/*}*/
 		}
