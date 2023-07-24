@@ -4,7 +4,7 @@
 /**
  * _puts - print string
  *
- * @*str: a string array pointer
+ * @str: a string array pointer
  *
  * Return: string
  */
