@@ -12,7 +12,7 @@ void puts2(char *str)
 
 	for (i = 0; i <= 9; i++)
 	{
-		if (i != 1, 3, 5, 9)
+		if (i != 1 || i !=3 || i != 5 || i != 9)
 			putchar(str[i]);
 	}
 	putchar("\n");
