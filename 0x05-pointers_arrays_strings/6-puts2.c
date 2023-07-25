@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * puts2 - print even no.
  *
