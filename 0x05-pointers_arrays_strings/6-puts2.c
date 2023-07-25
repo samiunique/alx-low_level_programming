@@ -7,17 +7,14 @@
  *
  * Return: even
  */
-
 void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; str[i] != '\0'; ++i)
 	{
-		if (i != 1 || i !=3 || i != 5 || i != 9)
-		{
+		if (i % 2 == 0)
 			_putchar(str[i]);
-		}
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
