@@ -13,7 +13,7 @@ void puts2(char *str)
 	for (i = 0; i <= 9; i++)
 	{
 		if (i != 1 || i !=3 || i != 5 || i != 9)
-			putchar(str[i]);
+			_putchar(str[i]);
 	}
-	putchar("\n");
+	_putchar("\n");
 }
