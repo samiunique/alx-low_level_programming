@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 			if (a[i] != 98 && a[i] != 5710000)
 			{
-				 printf(", ");
+				printf(", ");
 			}
 	}
 	printf("\n");
