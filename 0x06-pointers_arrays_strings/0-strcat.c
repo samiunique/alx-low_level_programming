@@ -3,6 +3,8 @@
 
 
 /**
+ * _strcat - function that concatenates 2 strings
+ *
  * @dest: destination of string to move.
  * @src: source of strin that move.
  *
@@ -11,5 +13,5 @@
 
 char *_strcat(char *dest, char *src)
 {
-	 return strcat(dest, src);
+	return strcat(dest, src);
 }
