@@ -26,5 +26,6 @@ char *_strncat(char *dest, char *src, int n)
 	dest[dest_len + copy_len] = '\0';
 	/* Use the standard library strncat to concatenate the remaining characters.*/
 	strncat(dest, src + copy_len, n - copy_len);
+	
 	return (dest);
 }
