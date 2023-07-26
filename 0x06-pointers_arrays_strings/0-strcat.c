@@ -1,3 +1,5 @@
+#include <string.h>
+
 /**
  * @dest: destination of string to move.
  * @src: source of strin that move.
