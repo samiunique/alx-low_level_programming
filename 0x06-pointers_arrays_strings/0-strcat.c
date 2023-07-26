@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <string.h>
+
 
 /**
  * @dest: destination of string to move.
@@ -9,9 +11,5 @@
 
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
-
-	concatenate(s1, s2);
-
-	return(0);
+	 return strcat(dest, src);
 }
