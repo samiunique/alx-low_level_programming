@@ -17,6 +17,7 @@ char *_strncat(char *dest, char *src, int n)
     int src_len = strlen(src);
     int copy_len = (n < src_len) ? n : src_len;
 	int i;
+
     /*/ Copy the first 'copy_len' characters from 'src' to 'dest'.*/
 	for (i = 0; i < copy_len; i++) 
 	{
