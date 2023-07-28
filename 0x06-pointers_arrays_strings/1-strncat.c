@@ -2,28 +2,28 @@
 #include <string.h>
 
 /**
- * _strncat - function to concatenate 2 strings with n.
+ * _strncat - Concatenate 2 strings up to n bytes.
+ * @dest: Pointer to the destination string.
+ * @src: Pointer to the source string.
+ * @n: Number of bytes to use from the source.
  *
- * @dest: pointer to file destination.
- * @src: pointer to file source.
- * @n: it will use at most n bytes from
- *
- * Return: pointer to resulting string @dest.
+ * Return: Pointer to the resulting string @dest.
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
     int dest_len = strlen(dest);
     int src_len = strlen(src);
     int copy_len = (n < src_len) ? n : src_len;
     int i;
-	
-	for (i = 0; i < copy_len; i++)
+
+    /* Copy the first 'copy_len' characters from 'src' to 'dest'. */
+    for (i = 0; i < copy_len && src[i] != '\0'; i++)
     {
         dest[dest_len + i] = src[i];
     }
-	dest[dest_len + copy_len] = '\0';
-	strncat(dest, src + copy_len, n - copy_len);
-	
-	return (dest);
+
+    /* Null-terminate the concatenated string in 'dest'. */
+    dest[dest_len + i] = '\0';
+
+    return dest;
 }
