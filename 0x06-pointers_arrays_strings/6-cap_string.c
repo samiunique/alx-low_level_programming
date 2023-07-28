@@ -14,7 +14,6 @@ char *cap_string(char *s)
 	/*iterate through our array values*/
 	while (s[i] != '\0')
 	{
-		/*check for any lowercase letters*/
 		if (s[i] >= 97 && s[i] <= 122)
 		{
 			/**
