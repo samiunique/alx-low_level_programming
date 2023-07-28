@@ -8,6 +8,7 @@
  *
  * Return: Pointer to the resulting string @dest.
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
     int dest_len = strlen(dest);
