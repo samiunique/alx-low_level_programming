@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include "main.h"
-
 /**
  * _strncpy - Copy a string.
  * @dest: Pointer to the destination string.
