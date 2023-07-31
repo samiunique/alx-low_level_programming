@@ -14,7 +14,7 @@
  *    the number of bytes to be filled
  *
  * Return: @s the filled me
- */
+*/
 
 char *_memset(char *s, char b, unsigned int n)
 {
