@@ -13,7 +13,8 @@
  * @n: unsigned int variable
  *    the number of bytes to be filled
  *
- * Return: @s the filled me
+ * Return: A pointer to the filled memory
+ *         area @s
 */
 
 char *_memset(char *s, char b, unsigned int n)
