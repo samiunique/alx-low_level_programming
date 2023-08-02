@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _puts_recursion - a function that prints a strin.
+ * _print_rev_recursion - a function that prints reverse string.
  *
  * @s: pointer for array of string.
  *
@@ -15,8 +15,8 @@ void _print_rev_recursion(char *s)
 
 	if (s[i] != '\0')
 	{
+		print_rev_recursion(s + 1);
 		putchar(s[i]);
-	_print_rev_recursion(s - 1);
 	}
 	else
 		putchar('\n');
