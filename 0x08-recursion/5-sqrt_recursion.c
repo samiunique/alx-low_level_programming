@@ -12,9 +12,7 @@
 
 int _sqrt_recursion(int n)
 {
-	int y;
-
-	if (y <= 0)
+	if sqrt(n <= 0)
 		return (-1);
 	else
 		return (sqrt(n));
