@@ -1,4 +1,6 @@
 #include <math.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
  * _sqrt_recursion - a function that returns the power of @x by @y x^y
