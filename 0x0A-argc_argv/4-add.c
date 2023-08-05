@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
 	int x, y;
 
-	if (argc < 3)
+	if (!isdigit (argc))
 	{
 		printf("Error\n");
 		return (1);
@@ -20,7 +20,10 @@ int main(int argc, char **argv)
 
 	x = (argv[1]);
 	y = (argv[2]);
+	if (x !< 0 && y !< 0)
+	{
 	printf("%d\n", x + y);
+	}
 
 	return (0);
 }
