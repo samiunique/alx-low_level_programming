@@ -15,19 +15,17 @@ int main(int argc, char **argv)
 	int i;
 
 	for (y = 1; y < argc; y++)
-    {
-        for (i = 0; argv[y][i] != '\0'; i++)
-        {
-            if (!isdigit(argv[y][i]))
-            {
-                printf("Error\n");
-                return (1);
-            }
-        }
-
-        x += atoi(argv[y]);
-    }
-        printf("%d\n", x);
-    
-    return (0);
+	{
+		for (i = 0; argv[y][i] != '\0'; i++)
+		{
+			if (!isdigit(argv[y][i]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		x += atoi(argv[y]);
+	}
+	printf("%d\n", x);
+	return (0);
 }
