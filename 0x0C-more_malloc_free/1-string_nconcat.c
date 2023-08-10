@@ -23,13 +23,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = len_s2;
 	}
-	concatenated = (char *)malloc(len_s1 + len_s2 + 1);
+	concatenated = (char *)malloc(len_s1 + n + 1);
 	if (concatenated == NULL)
 	{
 		return (NULL);
 	}
 	strcpy(concatenated, s1);
 	strcat(concatenated, s2);
+	concatenated[len_s1 + n] = '\0';
 
 	return (concatenated);
 }
