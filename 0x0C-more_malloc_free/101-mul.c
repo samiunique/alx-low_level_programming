@@ -63,6 +63,7 @@ int main(int argc, char **argv)
 	int j;
 	int i;
 	char  *result;
+	int firstNonZero;
 
 	if (argc != 3)
 	{
@@ -85,8 +86,7 @@ int main(int argc, char **argv)
 	num1 = (argv[2]);
 	/*mul = num1 * num2;*/
 	result = multiply(num1, num2);
-	int firstNonZero = 0;
-
+	firstNonZero = 0;
 	while (result[firstNonZero] == '0' && result[firstNonZero + 1] != '\0')
 	{
 		firstNonZero++;
