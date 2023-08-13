@@ -82,8 +82,8 @@ int main(int argc, char **argv)
 		}
 	}
 
-	num2 = (argv[1]);
-	num1 = (argv[2]);
+	num2 = argv[1];
+	num1 = argv[2];
 	/*mul = num1 * num2;*/
 	result = multiply(num1, num2);
 	firstNonZero = 0;
