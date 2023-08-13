@@ -85,7 +85,14 @@ int main(int argc, char **argv)
 	num1 = (argv[2]);
 	/*mul = num1 * num2;*/
 	result = multiply(num1, num2);
-	printf("%s\n", result);
+	int firstNonZero = 0;
+
+	while (result[firstNonZero] == '0' && result[firstNonZero + 1] != '\0')
+	{
+		firstNonZero++;
+	}
+	printf("%s\n", result + firstNonZero);
+	free(result);
 
 	return (98);
 }
