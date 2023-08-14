@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print file nae
+ * main - print file name.
  *
- * Return: 0 
+ * Return: always 0
  */
-int  main()
+
+int  main(void)
 {
 	printf("%s\n", __FILE__);
 	return (98);
