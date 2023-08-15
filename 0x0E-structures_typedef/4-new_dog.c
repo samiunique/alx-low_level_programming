@@ -23,3 +23,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->age = age;
 	return (dog);
 }
+void free_dog(dog_t *dog)
+{
+	if (dog != NULL)
+	{
+		free(dog);
+	}
+}
