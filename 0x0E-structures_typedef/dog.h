@@ -17,6 +17,15 @@ struct dog
 	char *owner;
 	float age;
 };
+/**
+ * my_dog - tpedef my dog
+ *
+ * @name: first member name of dog
+ * @owner: second member dog owner
+ * @age: therd member dog age
+ *
+ * Return: dog
+ */
 struct dog *my_dog(char *name, char *owner, float age)
 {
 	struct dog *ddog;
