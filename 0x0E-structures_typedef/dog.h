@@ -1,3 +1,6 @@
+#ifndef DOG
+#define DOG
+
 #include <stdlib.h>
 /**
  * struct dog - typedef for dog profile
@@ -26,3 +29,5 @@ struct dog *my_dog(char *name, char *owner, float age)
 	ddog->age = age;
 	return (ddog);
 }
+
+#endif
