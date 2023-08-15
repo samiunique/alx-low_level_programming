@@ -23,6 +23,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->age = age;
 	return (dog);
 }
+/**
+ * free_dog - free
+ *
+ * @dog: member holds memo tobe clear
+ */
 void free_dog(dog_t *dog)
 {
 	if (dog != NULL)
