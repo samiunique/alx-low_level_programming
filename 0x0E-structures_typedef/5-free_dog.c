@@ -3,8 +3,8 @@
 
 /**
  * free_dog - free memores ocupied by dog profile
- * 
- * @dog: member that ocupies a mem space.
+ *
+ * @d: member that ocupies a mem space.
  */
 void free_dog(dog_t *d)
 {
