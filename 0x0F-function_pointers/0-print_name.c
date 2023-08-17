@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_name - fuction to print name 
+ * print_name - fuction to print name
  *
  * @name: name of the person
  * @f: variable for function pointer
