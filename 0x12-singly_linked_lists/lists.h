@@ -2,6 +2,7 @@
 #define LISTS_H
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 /**
  * struct - stru
@@ -14,6 +15,8 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
+void first(void) __attribute__ ((constructor));
+void free_list(list_t *head);
 list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 size_t list_len(const list_t *h);
