@@ -13,7 +13,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	listint_t *add_new;
 
 	add_new = malloc(sizeof(listint_t));
-	if (add_new == NULL)
+	if (!add_new)
 		return (NULL);
 
 	/*link first node in head with the new_node*/
