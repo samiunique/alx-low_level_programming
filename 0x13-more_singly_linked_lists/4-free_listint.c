@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * free_listint - free
+ *
+ * @head: pinter of first node.
+ *
+ */
 
 void free_listint(listint_t *head)
 {

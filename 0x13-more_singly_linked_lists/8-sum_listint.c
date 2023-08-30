@@ -1,5 +1,13 @@
 #include "lists.h"
 
+/**
+ * sum_listint - function to add up
+ *
+ * @head: first node pointer
+ *
+ * Return: sum
+ */
+
 int sum_listint(listint_t *head)
 {
 	int sum = 0;

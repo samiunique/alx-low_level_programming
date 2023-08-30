@@ -1,4 +1,8 @@
 #include "lists.h"
+/**
+ * pop_listint - function to
+ * @head: node head pointer
+ */
 
 int pop_listint(listint_t **head)
 {
