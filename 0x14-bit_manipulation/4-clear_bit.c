@@ -3,14 +3,14 @@
 /**
  * clear_bit - clear
  *
- * @n: pointer to 
+ * @n: pointer to
  * @index: starting
  *
  * Return: 1
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
- {
+{
 	unsigned long int i;
 
 	if (index > (sizeof(unsigned long int) * 8 - 1))

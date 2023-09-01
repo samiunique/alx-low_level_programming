@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ * flip_bits - fun to flip
+ *  @n: int to flip
+ *  @m: int to
+ *
+ *  Return: fliped
+ */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
