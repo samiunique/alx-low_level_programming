@@ -1,4 +1,3 @@
-sami@DESKTOP-25TDS48:~/c-projects/0x14-bit_manipulation$ cat 3-set_bit.c
 #include "main.h"
 
 /**
@@ -9,12 +8,12 @@ sami@DESKTOP-25TDS48:~/c-projects/0x14-bit_manipulation$ cat 3-set_bit.c
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-        unsigned long int i;
+	unsigned long int i;
 
-        if (index > (sizeof(unsigned long int) * 8 - 1))
-                return (-1);
-        i = 1 << index;
-        *n = *n | i;
+	if (index > (sizeof(unsigned long int) * 8 - 1))
+		return (-1);
+	i = 1 << index;
+	*n = *n | i;
 
-        return (1);
+	return (1);
 }
