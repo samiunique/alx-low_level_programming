@@ -19,12 +19,13 @@ unsigned int binary_to_uint(const char *b)
 	}
 	else
 		while (*b)
+		{
 			if (!isdigit(*b))
 			{
 				return (0);
 			}
-	converted = (converted << 1) | (*b - '0');
-	b++;
-}
-return (converted);
+			converted = (converted << 1) | (*b - '0');
+			b++;
+		}
+	return (converted);
 }
