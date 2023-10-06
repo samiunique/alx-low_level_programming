@@ -37,7 +37,7 @@ void print_elf_info(Elf64_Ehdr *header)
 			printf("\n");
 		else
 		printf(" "); }
-	printf("  Class:       ");
+	printf("  Class:                             ");
 	switch (header->e_ident[EI_CLASS])
 	{
 		case ELFCLASSNONE:
